@@ -25,5 +25,12 @@ namespace Circulo
             perimetro = 2 * this.radio * pi;
             return perimetro;
         }
+        public double Area()
+        {
+            double pi=Convert.ToDouble(3.1416) ;
+            double area;
+            area = pi * Math.Pow(radio, 2);
+            return area;
+       }
     }
 }
