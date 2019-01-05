@@ -12,7 +12,7 @@ namespace Circulo
             var circulo = new Circulo(radio);
             Console.WriteLine("El perimetro es:  "+ circulo.Perimetro());
             Console.WriteLine("El Area es:  " + circulo.Area());
-            Console.ReadLine();
+            Console.WriteLine("Es una prueba de comentario");
             Console.ReadKey();
         }
     }
